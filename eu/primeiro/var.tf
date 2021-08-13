@@ -10,11 +10,3 @@ variable "aws_profile" {
   description = " "
   default     = "cloud"
 }
-
-
-variable "environment" {
-  type        = string
-  description = " "
-  default     = "dev"
-}
-
